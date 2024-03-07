@@ -1,0 +1,46 @@
+>> buckproc
+Running buck for heavy load.
+---------------------
+Heavy Averages:
+  V_load Average: 400.0307
+  i_load Average: 625.0479
+  V_L Average: 7.5894e-15
+  i_L Average: 625.0319
+  V_C Average: 400.0307
+  i_C Average: -0.016048
+  V_sw1 Average: 400
+  i_sw1 Average: 312.6551
+  V_sw2 Average: -400
+  i_sw2 Average: 312.606
+Efficiency for Heavy Load: 99.9657%.
+---------------------
+Running buck for light load.
+---------------------
+Light Averages:
+  V_load Average: 399.9996
+  i_load Average: 124.9999
+  V_L Average: 7.5894e-15
+  i_L Average: 124.9999
+  V_C Average: 399.9996
+  i_C Average: 5.7357e-05
+  V_sw1 Average: 400
+  i_sw1 Average: 62.6179
+  V_sw2 Average: -400
+  i_sw2 Average: 62.6112
+Efficiency for Light Load: 99.8114%.
+---------------------
+Running buck for heavy load and non ideal conditions.
+---------------------
+Non Ideal Averages:
+  V_load Average: 399.9508
+  i_L Average: 624.9231
+  V_sw1 Average: 396.3574
+  i_sw1 Average: 318.2797
+  V_sw2 Average: -403.5082
+  i_sw2 Average: 306.6434
+  P_sw1 Average: -403.5082
+  P_sw2 Average: 306.6434
+Efficiency for Non-Ideal: 98.1599%.
+Transistor Power Loss: 2330.834
+Diode Power Loss: 2243.2617
+---------------------
